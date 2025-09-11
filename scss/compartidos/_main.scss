@@ -5,27 +5,35 @@
     @include flex (flex, center, center, center);
     flex-direction: column;
 }
+
 .margintop {
-    @include margntop (7rem);
+    @include margntop (10rem);
 }
 
-.imagen-main-inicio {
-   height: auto;
-    max-width: 80%;
+.suave {
+    box-shadow: 0 12px 30px rgba(0, 0, 0, 0.25);
+}
+
+.margin-top-inicio {
+    @include margntop (0.5rem)
+}
+.width-img {
+    max-width: 65%;
+}
+
+.div-main-h2p {
     
+    padding-left: 1rem;
+    @include flex (flex, center, center, center);
+    flex-direction: column;
 }
-
-.margin-top-img {
-    @include margntop (5rem)
+.font-h2 {
+    font-size: 1.5rem;
 }
-
-.div-main-h2 {
-width: 20%;
-@include flex (flex, start, center, center);
-flex-direction: column;
-
+.font-p {
+    font-size: 1rem;
 }
 
 .colordiv {
-background-color: $colorinicio; 
+    background-color: $colorinicio;
 }
