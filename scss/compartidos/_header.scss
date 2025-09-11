@@ -1,0 +1,10 @@
+
+/*Header*/
+
+.gap {
+    gap: $gaph;
+}
+
+.imagen-header {
+    @include widt (25%);
+}

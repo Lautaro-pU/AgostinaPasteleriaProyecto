@@ -1,0 +1,12 @@
+@import './variables/variables';
+@import './utilidades/utilidades';
+@import './compartidos/header';
+@import './compartidos/main';
+@import './compartidos/footer';
+@import './medias/medias';
+
+body {
+    background-color: $colornav;
+    font-family: "Libertinus Sans", sans-serif;
+    height: 100%;
+}

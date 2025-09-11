@@ -1,0 +1,24 @@
+@mixin flex ($display, $text, $align, $justify) {
+    display: $display;
+    text-align: $text;
+    align-items: $align;
+    justify-content: $justify;
+}
+
+@mixin heig ($hei) {
+    height: $hei;
+}
+
+@mixin widt ($wid) {
+    width: $wid;
+}
+
+@mixin margntop ($mgtop) {
+    margin-top: $mgtop;
+}
+
+@mixin grid ($dis, $gridtemplate,){
+    display: $dis;
+    grid-template-columns: $gridtemplate;
+
+}

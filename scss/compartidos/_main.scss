@@ -1,0 +1,31 @@
+/*Main Inicio*/
+
+
+.seccion-h1 {
+    @include flex (flex, center, center, center);
+    flex-direction: column;
+}
+.margintop {
+    @include margntop (7rem);
+}
+
+.imagen-main-inicio {
+   height: auto;
+    max-width: 80%;
+    
+}
+
+.margin-top-img {
+    @include margntop (5rem)
+}
+
+.div-main-h2 {
+width: 20%;
+@include flex (flex, start, center, center);
+flex-direction: column;
+
+}
+
+.colordiv {
+background-color: $colorinicio; 
+}
