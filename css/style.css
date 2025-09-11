@@ -31,7 +31,7 @@ nav {
 }
 
 .margintop {
-  margin-top: 10rem;
+  margin-top: 4rem;
 }
 
 .suave {
@@ -85,6 +85,9 @@ nav {
   }
 }
 @media only screen and (min-width: 576px) {
+  .margintop {
+    margin-top: 5rem;
+  }
   main div {
     max-width: 100% !important;
     display: flex;
@@ -94,6 +97,9 @@ nav {
 @media only screen and (min-width: 990px) {
   .gap {
     gap: 7rem;
+  }
+  .margintop {
+    margin-top: 6.5rem;
   }
   .font-h2 {
     font-size: 3rem;
