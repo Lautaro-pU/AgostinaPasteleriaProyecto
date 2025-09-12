@@ -15,7 +15,7 @@
 }
 
 .margin-top-inicio {
-    @include margntop (0.5rem)
+    @include margntop (0.5rem);
 }
 .width-img {
     max-width: 65%;
@@ -36,4 +36,10 @@
 
 .colordiv {
     background-color: $colorinicio;
+}
+
+/*Main Catalogo*/
+
+.div-section-button {
+    @include button (pointer, rgb(245, 226, 212), 0.1px solid rgba(0, 0, 0, 0.728), 0.2s, scale(1.2), rgba(0, 0, 0, 0.616), rgb(245, 226, 212))
 }

@@ -12,7 +12,7 @@ nav {
 }
 
 .fontw {
-  font-weight: 700;
+  font-weight: 600;
 }
 
 .transform:hover {
@@ -67,6 +67,19 @@ nav {
   background-color: rgba(126, 77, 65, 0.689);
 }
 
+/*Main Catalogo*/
+.div-section-button {
+  cursor: pointer;
+  background-color: rgb(245, 226, 212);
+  border: 0.1px solid rgba(0, 0, 0, 0.728) !important;
+}
+.div-section-button:hover {
+  transition: 0.2s;
+  transform: scale(1.2);
+  color: rgba(0, 0, 0, 0.616);
+  background-color: rgb(245, 226, 212);
+}
+
 /*Footer*/
 .imagen-footer {
   height: 2rem;
@@ -86,12 +99,7 @@ nav {
 }
 @media only screen and (min-width: 576px) {
   .margintop {
-    margin-top: 5rem;
-  }
-  main div {
-    max-width: 100% !important;
-    display: flex;
-    flex: column;
+    margin-top: 11vw;
   }
 }
 @media only screen and (min-width: 990px) {
@@ -99,7 +107,7 @@ nav {
     gap: 7rem;
   }
   .margintop {
-    margin-top: 6.5rem;
+    margin-top: 8.5vw;
   }
   .font-h2 {
     font-size: 3rem;

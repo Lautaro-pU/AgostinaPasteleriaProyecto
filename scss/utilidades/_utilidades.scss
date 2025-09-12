@@ -15,10 +15,25 @@
 
 @mixin margntop ($mgtop) {
     margin-top: $mgtop;
+  
 }
 
 @mixin grid ($dis, $gridtemplate,){
     display: $dis;
     grid-template-columns: $gridtemplate;
+
+}
+
+@mixin button ($cursor, $colorf, $border, $tra, $trans, $colors, $backcolor) {
+    cursor: $cursor;
+    background-color: $colorf;
+    border: $border !important;
+
+    &:hover {
+        transition: $tra;
+        transform: $trans;
+        color: $colors;
+        background-color: $backcolor;
+    }
 
 }

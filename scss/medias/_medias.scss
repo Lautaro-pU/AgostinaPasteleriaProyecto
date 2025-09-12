@@ -3,10 +3,11 @@
     .flexmedia {
         flex-direction: column !important;
     }
+
     .margin-top-img {
         margin: 0.5rem 0 0 0 !important;
     }
-   
+
     .width-img {
         max-width: 100% !important;
         width: 100% !important;
@@ -17,30 +18,27 @@
 @media only screen and (min-width: 576px) {
 
     .margintop {
-        @include margntop (5rem);
+        @include margntop (11vw);
     }
-    main {
-        div {
-            max-width: 100% !important;
-            display: flex;
-            flex: column;
-        }
-    }
+    
 }
 
 @media only screen and (min-width: 990px) {
     .gap {
         gap: 7rem;
     }
+
     .margintop {
-        @include margntop (6.5rem);
+        @include margntop (8.5vw);
     }
 
-  .font-h2 {
-    font-size: 3rem;
-}
-.font-p {
-    font-size: 1.5rem;
-}
+    .font-h2 {
+        font-size: 3rem;
+    }
+
+    .font-p {
+        font-size: 1.5rem;
+    }
 
 }
+
