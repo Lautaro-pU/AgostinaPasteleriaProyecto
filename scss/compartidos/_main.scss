@@ -10,26 +10,27 @@
     @include margntop (4rem);
 }
 
-.suave {
-    box-shadow: 0 12px 30px rgba(0, 0, 0, 0.25);
-}
+
 
 .margin-top-inicio {
     @include margntop (0.5rem);
 }
+
 .width-img {
     max-width: 65%;
 }
 
 .div-main-h2p {
-    
+
     padding-left: 1rem;
     @include flex (flex, center, center, center);
     flex-direction: column;
 }
+
 .font-h2 {
     font-size: 1.5rem;
 }
+
 .font-p {
     font-size: 1rem;
 }
@@ -39,7 +40,38 @@
 }
 
 /*Main Catalogo*/
+.container div {
+    gap: 40px;
+}
+.card {
+    box-shadow: 0 12px 30px rgba(0, 0, 0, 0.25);
+    background-color: $colorcard;
+    height: 550px;
+    width: 300px;
+    align-items: center;
+}
 
+.card img {
+    width: 90%;
+    border-radius: 15px;
+}
+
+.card p {
+    width: 100%;
+    padding: 0 10px;
+    margin-top: 1rem;
+}
+
+.card button {
+    border-radius: 5px;
+    background-color: $colorbuttoncatal;
+    font-weight: 700;
+    color: #fff;
+    text-shadow: 1px 1px 3px black;
+    width: 100px;
+    margin: $margincentrado;
+    margin-bottom: 10px;
+}
 .div-section-button {
     @include button (pointer, rgb(245, 226, 212), 0.1px solid rgba(0, 0, 0, 0.728), 0.2s, scale(1.2), rgba(0, 0, 0, 0.616), rgb(245, 226, 212))
 }
