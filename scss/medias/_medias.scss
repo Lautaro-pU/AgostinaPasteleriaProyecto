@@ -2,6 +2,13 @@
 
     .flexmedia {
         flex-direction: column !important;
+        width: 100% !important;
+        img {
+            width: 100% !important;
+        }
+        div {
+            width: 100% !important;
+        }
     }
 
     .margin-top-img {
@@ -15,7 +22,20 @@
 
 }
 
-@media only screen and (min-width: 576px) {
+@media only screen and (min-width: 576px) and (max-width: 989px) {
+    .div-inicio img {
+        height: 450px;
+    }
+    .flexmedia {
+        flex-direction: column !important;
+        width: 100% !important;
+        img {
+            width: 100% !important;
+        }
+        div {
+            width: 100% !important;
+        }
+    }
 
     .margintop {
         @include margntop (11vw);
@@ -42,3 +62,10 @@
 
 }
 
+/*Mediaquery catalogo*/
+
+@media only screen and (max-width: 766px) {
+    .card {
+        margin: $margincentrado
+    }
+}

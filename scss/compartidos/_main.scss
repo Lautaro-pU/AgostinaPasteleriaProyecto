@@ -12,19 +12,33 @@
 
 
 
-.margin-top-inicio {
+.div-inicio {
     @include margntop (0.5rem);
+    height: 450px;
+    padding: 0 2rem;
+
 }
 
-.width-img {
-    max-width: 65%;
-}
 
 .div-main-h2p {
 
     padding-left: 1rem;
     @include flex (flex, center, center, center);
     flex-direction: column;
+    color: $colorblanco;
+    font-weight: 700;
+
+    a {
+        list-style: none;
+        text-decoration: none;
+        color: $colorblanco;
+        font-size: 1.5rem;
+        font-weight: 700;
+        background-color: $colornav;
+        border-radius: 5px;
+        padding: 0.3rem;
+
+    }
 }
 
 .font-h2 {
@@ -43,12 +57,14 @@
 .container div {
     gap: 40px;
 }
+
 .card {
     box-shadow: 0 12px 30px rgba(0, 0, 0, 0.25);
     background-color: $colorcard;
     height: 550px;
     width: 300px;
     align-items: center;
+
 }
 
 .card img {
@@ -72,6 +88,7 @@
     margin: $margincentrado;
     margin-bottom: 10px;
 }
+
 .div-section-button {
     @include button (pointer, rgb(245, 226, 212), 0.1px solid rgba(0, 0, 0, 0.728), 0.2s, scale(1.2), rgba(0, 0, 0, 0.616), rgb(245, 226, 212))
 }

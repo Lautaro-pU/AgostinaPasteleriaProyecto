@@ -1,4 +1,12 @@
 /*Footer*/
-.imagen-footer {
-    @include heig (1rem);
+footer {
+    @include flex (flex, center, center, space-between);
+    padding: rem;
+    height: 1rem;
+    .imagen-footer {
+        @include heig (2rem);
+        text-align: $texcenter;
+        align-items: $aligitems;
+        margin-bottom: 1.3rem;
+    }
 }

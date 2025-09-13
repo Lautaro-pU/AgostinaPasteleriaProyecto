@@ -30,12 +30,10 @@ nav {
   margin-top: 4rem;
 }
 
-.margin-top-inicio {
+.div-inicio {
   margin-top: 0.5rem;
-}
-
-.width-img {
-  max-width: 65%;
+  height: 450px;
+  padding: 0 2rem;
 }
 
 .div-main-h2p {
@@ -45,6 +43,18 @@ nav {
   align-items: center;
   justify-content: center;
   flex-direction: column;
+  color: #fff;
+  font-weight: 700;
+}
+.div-main-h2p a {
+  list-style: none;
+  text-decoration: none;
+  color: #fff;
+  font-size: 1.5rem;
+  font-weight: 700;
+  background-color: #ecb4b4;
+  border-radius: 5px;
+  padding: 0.3rem;
 }
 
 .font-h2 {
@@ -107,13 +117,31 @@ nav {
 }
 
 /*Footer*/
-.imagen-footer {
+footer {
+  display: flex;
+  text-align: center;
+  align-items: center;
+  justify-content: space-between;
+  padding: rem;
   height: 1rem;
+}
+footer .imagen-footer {
+  height: 2rem;
+  text-align: center;
+  align-items: center;
+  margin-bottom: 1.3rem;
 }
 
 @media only screen and (max-width: 575px) {
   .flexmedia {
     flex-direction: column !important;
+    width: 100% !important;
+  }
+  .flexmedia img {
+    width: 100% !important;
+  }
+  .flexmedia div {
+    width: 100% !important;
   }
   .margin-top-img {
     margin: 0.5rem 0 0 0 !important;
@@ -123,7 +151,20 @@ nav {
     width: 100% !important;
   }
 }
-@media only screen and (min-width: 576px) {
+@media only screen and (min-width: 576px) and (max-width: 989px) {
+  .div-inicio img {
+    height: 450px;
+  }
+  .flexmedia {
+    flex-direction: column !important;
+    width: 100% !important;
+  }
+  .flexmedia img {
+    width: 100% !important;
+  }
+  .flexmedia div {
+    width: 100% !important;
+  }
   .margintop {
     margin-top: 11vw;
   }
@@ -140,6 +181,12 @@ nav {
   }
   .font-p {
     font-size: 1.5rem;
+  }
+}
+/*Mediaquery catalogo*/
+@media only screen and (max-width: 766px) {
+  .card {
+    margin: 0 auto;
   }
 }
 body {
