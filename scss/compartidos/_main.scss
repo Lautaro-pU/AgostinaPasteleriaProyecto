@@ -118,7 +118,7 @@
     .div-section-servicios2 {
         display: flex;
         gap: 1.5rem;
-        @include widt (50%)
+        width: 50% !important;
     }
 
 
@@ -127,7 +127,7 @@
         margin: 0 auto;
         margin-top: 0.5rem;
         font-weight: 700;
-        @include widt (50%);
+        width: 50% !important;
         
     }
 
