@@ -126,6 +126,7 @@
         font-weight: 700;
         width: 50%;
         height: auto;
+        gap: 2px;
     }
 
 
@@ -133,14 +134,6 @@
         @extend .btn-base;
     }
 
-    form {
-        display: flex;
-        flex-direction: column;
-        text-align: start;
-        justify-content: start;
-        align-items: start;
-        gap: 2px;
-    }
-
+   
 
 }
