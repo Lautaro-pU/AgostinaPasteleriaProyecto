@@ -23,7 +23,7 @@ Este proyecto está pensado para mostrar de manera clara y atractiva la propuest
 ## 🚀 Demo
 
 👉 Podés ver el sitio publicado en **GitHub Pages**:  
-[https://Lautaro-pU.github.io/agostina-pasteleria](https://Lautaro-pU.github.io/AgostinaPasteleriaProyecto)
+[https://LautaroPujol.github.io/agostina-pasteleria](https://LautaroPujol.github.io/AgostinaPasteleriaProyecto)
 
 ---
 
@@ -43,4 +43,4 @@ Este proyecto está pensado para mostrar de manera clara y atractiva la propuest
 
 1. Cloná este repositorio:
    ```bash
-   git clone https://github.com/Lautaro-pU/AgostinaPasteleriaProyecto.git
+   git clone https://github.com/LautaroPujol/AgostinaPasteleriaProyecto.git
