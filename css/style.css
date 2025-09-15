@@ -19,15 +19,12 @@ nav {
 
 /*Main Inicio*/
 .seccion-h1 {
+  margin-top: 4rem;
   display: flex;
   text-align: center;
   align-items: center;
   justify-content: center;
   flex-direction: column;
-}
-
-.margintop {
-  margin-top: 4rem;
 }
 
 .div-inicio {
@@ -46,6 +43,12 @@ nav {
   color: #fff;
   font-weight: 700;
 }
+.div-main-h2p h2 {
+  font-size: 3.5rem;
+}
+.div-main-h2p p {
+  font-size: 2rem;
+}
 .div-main-h2p a {
   list-style: none;
   text-decoration: none;
@@ -55,12 +58,6 @@ nav {
   background-color: #ecb4b4;
   border-radius: 5px;
   padding: 0.3rem;
-}
-.div-main-h2p h2 {
-  font-size: 3.5rem;
-}
-.div-main-h2p p {
-  font-size: 2rem;
 }
 
 .colordiv {
@@ -139,6 +136,11 @@ nav {
   height: auto;
 }
 .servicios .div-form {
+  display: flex;
+  text-align: center;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
   margin: 0 auto;
   margin-top: 0.5rem;
   font-weight: 700;
@@ -176,23 +178,19 @@ footer .imagen-footer {
     width: 100% !important;
   }
   .flexmedia img {
+    margin: 0.5rem 0 0 0 !important;
     width: 100% !important;
   }
   .flexmedia div {
-    width: 100% !important;
-  }
-  .margin-top-img {
-    margin: 0.5rem 0 0 0 !important;
-  }
-  .width-img {
-    max-width: 100% !important;
     width: 100% !important;
   }
   .div-section-servicios {
     flex-direction: column;
     margin-top: 0.5rem;
   }
-  .div-section-servicios1, .div-section-servicios2, .div-form {
+  .div-section-servicios1,
+  .div-section-servicios2,
+  .div-form {
     width: 100% !important;
     margin-top: 0.5rem;
   }

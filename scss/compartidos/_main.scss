@@ -2,14 +2,10 @@
 
 
 .seccion-h1 {
+     @include margntop (4rem);
     @include flex (flex, center, center, center);
     flex-direction: column;
 }
-
-.margintop {
-    @include margntop (4rem);
-}
-
 
 
 .div-inicio {
@@ -21,12 +17,19 @@
 
 
 .div-main-h2p {
-
     padding-left: 1rem;
     @include flex (flex, center, center, center);
     flex-direction: column;
     color: $colorblanco;
     font-weight: 700;
+
+    h2 {
+        font-size: 3.5rem;
+    }
+
+     p {
+        font-size: 2rem;
+    }
 
     a {
         list-style: none;
@@ -38,14 +41,6 @@
         border-radius: 5px;
         padding: 0.3rem;
 
-    }
-
-    h2 {
-        font-size: 3.5rem;
-    }
-
-    p {
-        font-size: 2rem;
     }
 }
 
@@ -126,7 +121,9 @@
 
 
     .div-form {
+        @include flex (flex, center, center, center);
         @extend .card;
+        flex-direction: column;
         margin: 0 auto;
         margin-top: 0.5rem;
         font-weight: 700;

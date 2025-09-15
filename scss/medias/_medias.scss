@@ -3,45 +3,45 @@
     .flexmedia {
         flex-direction: column !important;
         width: 100% !important;
+
         img {
+            margin: 0.5rem 0 0 0 !important;
             width: 100% !important;
         }
+
         div {
             width: 100% !important;
-         
+
         }
     }
 
-    .margin-top-img {
-        margin: 0.5rem 0 0 0 !important;
+    .div-section-servicios {
+        flex-direction: column;
+        @include margntop (0.5rem);
     }
 
-    .width-img {
-        max-width: 100% !important;
+
+    .div-section-servicios1,
+    .div-section-servicios2,
+    .div-form {
         width: 100% !important;
+        @include margntop (0.5rem);
     }
-.div-section-servicios {
-    flex-direction: column;
-    @include margntop (0.5rem);
-}
-
-
-.div-section-servicios1, .div-section-servicios2, .div-form {
-    width: 100% !important;
-     @include margntop (0.5rem);
-}
 }
 
 @media only screen and (min-width: 576px) and (max-width: 989px) {
     .div-inicio img {
         height: 450px;
     }
+
     .flexmedia {
         flex-direction: column !important;
         width: 100% !important;
+
         img {
             width: 100% !important;
         }
+
         div {
             width: 100% !important;
         }
@@ -50,7 +50,7 @@
     .margintop {
         @include margntop (11vw);
     }
-    
+
 }
 
 @media only screen and (min-width: 990px) {
