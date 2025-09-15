@@ -116,19 +116,22 @@
 
     .div-section-servicios1,
     .div-section-servicios2 {
+        @extend .card;
         display: flex;
+        flex-direction: column;
         gap: 1.5rem;
-        width: 50% !important;
+        width: 50%;
+        height: auto;
     }
 
 
     .div-form {
-        
+        @extend .card;
         margin: 0 auto;
         margin-top: 0.5rem;
         font-weight: 700;
-        width: 50% !important;
-        
+        width: 50%;
+        height: auto;
     }
 
 

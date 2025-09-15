@@ -72,7 +72,8 @@ nav {
   gap: 40px;
 }
 
-.card {
+.card, .servicios .div-form, .servicios .div-section-servicios1,
+.servicios .div-section-servicios2 {
   box-shadow: 0 12px 30px rgba(0, 0, 0, 0.25);
   background-color: rgba(189, 216, 243, 0.3098039216);
   height: 550px;
@@ -80,18 +81,22 @@ nav {
   align-items: center;
 }
 
-.card img {
+.card img, .servicios .div-form img, .servicios .div-section-servicios1 img,
+.servicios .div-section-servicios2 img {
   width: 90%;
   border-radius: 15px;
 }
 
-.card p {
+.card p, .servicios .div-form p, .servicios .div-section-servicios1 p,
+.servicios .div-section-servicios2 p {
   width: 100%;
   padding: 0 10px;
   margin-top: 1rem;
 }
 
-.card .btn-base, .card .servicios button, .servicios .card button {
+.card .btn-base, .card .servicios button, .servicios .card button, .servicios .div-form .btn-base, .servicios .div-form button, .servicios .div-section-servicios1 .btn-base, .servicios .div-section-servicios1 button,
+.servicios .div-section-servicios2 .btn-base,
+.servicios .div-section-servicios2 button {
   border-radius: 5px;
   background-color: #ecb4b4;
   font-weight: 700;
@@ -128,14 +133,17 @@ nav {
 .servicios .div-section-servicios1,
 .servicios .div-section-servicios2 {
   display: flex;
+  flex-direction: column;
   gap: 1.5rem;
   width: 50%;
+  height: auto;
 }
 .servicios .div-form {
   margin: 0 auto;
   margin-top: 0.5rem;
   font-weight: 700;
   width: 50%;
+  height: auto;
 }
 .servicios form {
   display: flex;
@@ -223,7 +231,8 @@ footer .imagen-footer {
 }
 /*Mediaquery catalogo*/
 @media only screen and (max-width: 766px) {
-  .card {
+  .card, .servicios .div-section-servicios1,
+  .servicios .div-section-servicios2, .servicios .div-form {
     margin: 0 auto;
   }
 }
