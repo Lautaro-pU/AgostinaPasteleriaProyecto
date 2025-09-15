@@ -23,7 +23,7 @@ Este proyecto está pensado para mostrar de manera clara y atractiva la propuest
 ## 🚀 Demo
 
 👉 Podés ver el sitio publicado en **GitHub Pages**:  
-[https://tuusuario.github.io/agostina-pasteleria](https://Lautaro-pU.github.io/AgostinaPasteleriaProyecto)
+[https://Lautaro-pU.github.io/agostina-pasteleria](https://Lautaro-pU.github.io/AgostinaPasteleriaProyecto)
 
 ---
 
