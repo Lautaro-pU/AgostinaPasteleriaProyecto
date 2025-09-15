@@ -20,7 +20,15 @@
         max-width: 100% !important;
         width: 100% !important;
     }
+.div-section-servicios {
+    flex-direction: column;
+    @include margntop (0.5rem);
+}
 
+.div-section-servicios1, .div-section-servicios2, .div-form {
+    width: 100% !important;
+     @include margntop (0.5rem);
+}
 }
 
 @media only screen and (min-width: 576px) and (max-width: 989px) {

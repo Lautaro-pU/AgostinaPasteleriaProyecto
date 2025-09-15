@@ -39,15 +39,18 @@
         padding: 0.3rem;
 
     }
+
+    h2 {
+        font-size: 3.5rem;
+    }
+
+    p {
+        font-size: 2rem;
+    }
 }
 
-.font-h2 {
-    font-size: 1.5rem;
-}
 
-.font-p {
-    font-size: 1rem;
-}
+
 
 .colordiv {
     background-color: $colorinicio;
@@ -78,7 +81,7 @@
     margin-top: 1rem;
 }
 
-.card button {
+.card .btn-base {
     border-radius: 5px;
     background-color: $colorbuttoncatal;
     font-weight: 700;
@@ -91,4 +94,56 @@
 
 .div-section-button {
     @include button (pointer, rgb(245, 226, 212), 0.1px solid rgba(0, 0, 0, 0.728), 0.2s, scale(1.2), rgba(0, 0, 0, 0.616), rgb(245, 226, 212))
+}
+
+/*Main servicios*/
+
+
+.servicios {
+
+
+    img {
+        @include margntop (6rem);
+        max-width: 90%;
+        height: 450px;
+        margin: $margincentrado;
+    }
+
+    .div-section-servicios {
+        @include margntop (0.5rem);
+        font-weight: 700;
+    }
+
+    .div-section-servicios1,
+    .div-section-servicios2 {
+        display: flex;
+        gap: 1.5rem;
+        @include widt (50%)
+    }
+
+
+    .div-form {
+        
+        margin: 0 auto;
+        margin-top: 0.5rem;
+        font-weight: 700;
+        @include widt (50%);
+        
+    }
+
+
+    button {
+        @extend .btn-base;
+    }
+
+    form {
+        display: flex;
+        flex-direction: column;
+        text-align: start;
+        justify-content: start;
+        align-items: start;
+        gap: 2px;
+    }
+
+
 }

@@ -56,13 +56,11 @@ nav {
   border-radius: 5px;
   padding: 0.3rem;
 }
-
-.font-h2 {
-  font-size: 1.5rem;
+.div-main-h2p h2 {
+  font-size: 3.5rem;
 }
-
-.font-p {
-  font-size: 1rem;
+.div-main-h2p p {
+  font-size: 2rem;
 }
 
 .colordiv {
@@ -93,7 +91,7 @@ nav {
   margin-top: 1rem;
 }
 
-.card button {
+.card .btn-base, .card .servicios button, .servicios .card button {
   border-radius: 5px;
   background-color: #ecb4b4;
   font-weight: 700;
@@ -114,6 +112,38 @@ nav {
   transform: scale(1.2);
   color: rgba(0, 0, 0, 0.616);
   background-color: rgb(245, 226, 212);
+}
+
+/*Main servicios*/
+.servicios img {
+  margin-top: 6rem;
+  max-width: 90%;
+  height: 450px;
+  margin: 0 auto;
+}
+.servicios .div-section-servicios {
+  margin-top: 0.5rem;
+  font-weight: 700;
+}
+.servicios .div-section-servicios1,
+.servicios .div-section-servicios2 {
+  display: flex;
+  gap: 1.5rem;
+  width: 50%;
+}
+.servicios .div-form {
+  margin: 0 auto;
+  margin-top: 0.5rem;
+  font-weight: 700;
+  width: 50%;
+}
+.servicios form {
+  display: flex;
+  flex-direction: column;
+  text-align: start;
+  justify-content: start;
+  align-items: start;
+  gap: 2px;
 }
 
 /*Footer*/
@@ -149,6 +179,14 @@ footer .imagen-footer {
   .width-img {
     max-width: 100% !important;
     width: 100% !important;
+  }
+  .div-section-servicios {
+    flex-direction: column;
+    margin-top: 0.5rem;
+  }
+  .div-section-servicios1, .div-section-servicios2, .div-form {
+    width: 100% !important;
+    margin-top: 0.5rem;
   }
 }
 @media only screen and (min-width: 576px) and (max-width: 989px) {
@@ -189,6 +227,7 @@ footer .imagen-footer {
     margin: 0 auto;
   }
 }
+/*Estilos Generales*/
 body {
   background-color: #f8f9fa;
   font-family: "Libertinus Sans", sans-serif;
