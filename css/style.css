@@ -65,10 +65,6 @@ nav {
 }
 
 /*Main Catalogo*/
-.container div {
-  gap: 40px;
-}
-
 .card, .servicios .div-form, .servicios .div-section-servicios1,
 .servicios .div-section-servicios2 {
   box-shadow: 0 12px 30px rgba(0, 0, 0, 0.25);
@@ -118,10 +114,10 @@ nav {
 
 /*Main servicios*/
 .servicios img {
-  margin-top: 6rem;
+  margin: 0 auto;
+  margin-top: 3.7rem;
   max-width: 90%;
   height: 450px;
-  margin: 0 auto;
 }
 .servicios .div-section-servicios {
   margin-top: 0.5rem;
@@ -184,6 +180,15 @@ footer .imagen-footer {
   .flexmedia div {
     width: 100% !important;
   }
+  /*Media Catalogo*/
+  .card, .servicios .div-section-servicios1,
+  .servicios .div-section-servicios2, .servicios .div-form {
+    margin: 0 auto !important;
+  }
+  /*Media Servicios*/
+  .servicios img {
+    margin-top: 3.7rem;
+  }
   .div-section-servicios {
     flex-direction: column;
     margin-top: 0.5rem;
@@ -209,7 +214,11 @@ footer .imagen-footer {
   .flexmedia div {
     width: 100% !important;
   }
-  .margintop {
+  .seccion-h1 {
+    margin-top: 6rem;
+  }
+  /*Media Servicios*/
+  .servicios img {
     margin-top: 11vw;
   }
 }
@@ -217,8 +226,8 @@ footer .imagen-footer {
   .gap {
     gap: 7rem;
   }
-  .margintop {
-    margin-top: 8.5vw;
+  .seccion-h1 {
+    margin-top: 9vw;
   }
   .font-h2 {
     font-size: 3rem;
@@ -226,12 +235,9 @@ footer .imagen-footer {
   .font-p {
     font-size: 1.5rem;
   }
-}
-/*Mediaquery catalogo*/
-@media only screen and (max-width: 766px) {
-  .card, .servicios .div-section-servicios1,
-  .servicios .div-section-servicios2, .servicios .div-form {
-    margin: 0 auto;
+  /*Media Servicios*/
+  .servicios img {
+    margin-top: 8.9vw;
   }
 }
 /*Estilos Generales*/

@@ -1,5 +1,6 @@
 @media only screen and (max-width: 575px) {
 
+
     .flexmedia {
         flex-direction: column !important;
         width: 100% !important;
@@ -13,6 +14,16 @@
             width: 100% !important;
 
         }
+    }
+
+    /*Media Catalogo*/
+    .card {
+        margin: $margincentrado !important;
+    }
+
+    /*Media Servicios*/
+    .servicios img {
+        @include margntop (3.7rem)
     }
 
     .div-section-servicios {
@@ -47,8 +58,14 @@
         }
     }
 
-    .margintop {
-        @include margntop (11vw);
+    .seccion-h1 {
+        margin-top: 6rem;
+    }
+
+
+    /*Media Servicios*/
+    .servicios img {
+        @include margntop (11vw)
     }
 
 }
@@ -58,8 +75,8 @@
         gap: 7rem;
     }
 
-    .margintop {
-        @include margntop (8.5vw);
+    .seccion-h1 {
+        margin-top: 9vw;
     }
 
     .font-h2 {
@@ -70,12 +87,9 @@
         font-size: 1.5rem;
     }
 
-}
-
-/*Mediaquery catalogo*/
-
-@media only screen and (max-width: 766px) {
-    .card {
-        margin: $margincentrado
+    /*Media Servicios*/
+    .servicios img {
+        @include margntop (8.9vw)
     }
 }
+
