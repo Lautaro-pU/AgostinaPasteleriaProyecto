@@ -134,6 +134,59 @@
         @extend .btn-base;
     }
 
-   
 
+
+}
+
+/*Main Nosotros*/
+
+main {
+    .h1-nosotros {
+        @include flex (flex, center, center, center);
+        @include margntop (11rem);
+        font-weight: 700;
+    }
+
+    .separacion {
+        display: flex;
+        max-width: 100%;
+        margin: $margincentrado;
+    }
+
+    .nuetra-historia {
+        @include flex (flex, center, center, center);
+        margin-bottom: 3rem;
+    }
+
+    .nuestra-mision, .nuestra-vision {
+        display: flex;
+        align-items: flex-start;
+        margin-top: 40px;
+        max-width: 100%;
+
+    }
+    
+    div {
+    h3 {
+        position: relative;
+        padding-left: 10px;
+    }
+    h3::after {
+        background-color: #f88c91;
+        content: "";
+        position: absolute;
+        bottom: -10px;
+        left: 10px;
+        width: 30px;
+        height: 2px;
+    }
+    p {
+       font-weight: 700;
+    }
+}
+.nuestra-mision img {
+    height: 70px;
+    
+}
+    
 }

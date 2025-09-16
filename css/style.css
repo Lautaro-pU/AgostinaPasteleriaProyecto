@@ -142,14 +142,53 @@ nav {
   font-weight: 700;
   width: 50%;
   height: auto;
-}
-.servicios form {
-  display: flex;
-  flex-direction: column;
-  text-align: start;
-  justify-content: start;
-  align-items: start;
   gap: 2px;
+}
+/*Main Nosotros*/
+main .h1-nosotros {
+  display: flex;
+  text-align: center;
+  align-items: center;
+  justify-content: center;
+  margin-top: 11rem;
+  font-weight: 700;
+}
+main .separacion {
+  display: flex;
+  max-width: 100%;
+  margin: 0 auto;
+}
+main .nuetra-historia {
+  display: flex;
+  text-align: center;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 3rem;
+}
+main .nuestra-mision, main .nuestra-vision {
+  display: flex;
+  align-items: flex-start;
+  margin-top: 40px;
+  max-width: 100%;
+}
+main div h3 {
+  position: relative;
+  padding-left: 10px;
+}
+main div h3::after {
+  background-color: #f88c91;
+  content: "";
+  position: absolute;
+  bottom: -10px;
+  left: 10px;
+  width: 30px;
+  height: 2px;
+}
+main div p {
+  font-weight: 700;
+}
+main .nuestra-mision img {
+  height: 70px;
 }
 
 /*Footer*/
@@ -199,6 +238,17 @@ footer .imagen-footer {
     width: 100% !important;
     margin-top: 0.5rem;
   }
+  /*Media Nosotros*/
+  main .nuetra-historia {
+    margin-top: 1rem !important;
+    margin: 0 auto;
+  }
+  main .flexs {
+    flex-direction: column;
+  }
+  main .flexs div img {
+    max-width: 100%;
+  }
 }
 @media only screen and (min-width: 576px) and (max-width: 989px) {
   .div-inicio img {
@@ -220,6 +270,14 @@ footer .imagen-footer {
   /*Media Servicios*/
   .servicios img {
     margin-top: 11vw;
+  }
+  /*Medias Nosotros*/
+  .flexs {
+    flex-direction: column;
+  }
+  .container .div-div-nosotros {
+    max-width: 100%;
+    margin: 0 auto;
   }
 }
 @media only screen and (min-width: 990px) {
